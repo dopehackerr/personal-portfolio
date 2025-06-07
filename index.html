@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">My Portfolio</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="theme-toggle">
+        <label class="toggle-switch">
+  <input type="checkbox" disabled checked>
+  <span class="slider"></span>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <h1>Hello, I'm Ayush Vijay kamble</h1>
+    <p>Full stack web developer with high problem-solving skills and develops complex project </p>
+    <img src="./myimg.jpeg" alt="Profile" class="profile-pic animated" />
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <a href="resume.pdf" class="btn download-btn" download>Download Resume</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="myimg.jpeg" alt="My Image">
+      <div>
+        <p>Passionate Full Stack Web Developer dedicated in developing responsive and interactive web applications with the use of HTML, CSS, JavaScript, React, Next. js, Express. js, and MongoDB. Created projects such as a Weather App and Netflix Clone, demonstrating frontend UI design as well as backend implementation. Enthusiastic about building scalable digital products for a user.</p>
+        <button class="btn">Read More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills">
+    <h2>My Skills</h2>
+    <div class="skill-bar">
+      <p>HTML</p>
+      <div class="bar"><span style="width: 95%"></span></div>
+    </div>
+    <div class="skill-bar">
+      <p>CSS</p>
+      <div class="bar"><span style="width: 90%"></span></div>
+    </div>
+    <div class="skill-bar">
+      <p>JavaScript</p>
+      <div class="bar"><span style="width: 80%"></span></div>
+    </div>
+    <div class="skill-bar">
+      <p>React</p>
+      <div class="bar"><span style="width: 75%"></span></div>
+    </div>
+    <div class="skill-bar">
+      <p>Mongo DB</p>
+      <div class="bar"><span style="width: 70%"></span></div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+<section id="services" class="section services">
+  <h2>My Services</h2>
+  <div class="service-cards">
+    <div class="service-card">
+      <i class="fas fa-code service-icon"></i>
+      <h3>Web Development</h3>
+      <p>I build modern, responsive websites using HTML, CSS, JavaScript, and React to create seamless user experiences.</p>
+    </div>
+    <div class="service-card">
+      <i class="fas fa-chalkboard-teacher service-icon"></i>
+      <h3>Technical Guidance</h3>
+      <p>I help beginners and junior developers navigate tech tools, solve coding issues, and improve project structure.</p>
+    </div>
+    <div class="service-card">
+      <i class="fas fa-headset service-icon"></i>
+      <h3>Customer Support</h3>
+      <p>I provide clear, timely technical support and documentation for users to troubleshoot and use digital products effectively.</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="section certifications">
+    <h2>Certifications</h2>
+    <div class="cert-cards">
+      <div class="card">
+        <h3>Frontend Development</h3>
+        <p>Internshala</p>
+        <a href="certificates/frontend.pdf" class="btn" target="_blank">View Certificate</a>
+      </div>
+      <div class="card">
+        <h3>Backend Development</h3>
+        <p>Internshala</p>
+        <a href="certificates/backend.pdf" class="btn" target="_blank">View Certificate</a>
+      </div>
+      <div class="card">
+        <h3>Mongo Db</h3>
+        <p>Internshala</p>
+        <a href="certificates/mongodb.pdf" class="btn" target="_blank">View Certificate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">Portfolio website</div>
+      <div class="project-card">Weather App</div>
+      <div class="project-card">E-commerce website</div>
+      <div class="project-card">Netflix clone</div>
+      <div class="project-card">Calculator</div>
+      <div class="project-card">Quiz App</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <h3>Name:-Ayush Vijay Kamble</h3>
+    <h3>Email:ayushkamble866@gmail.com</h3>
+    <form>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Ayush Kamble <sup>TM</sup></p>
+    <a href="tel:+918888888888" class="btn">Call</a>
+    <a href="ayushkamble8655@gmail.com" class="btn">Email</a>
+  </footer>
+
+</body>
+</html>
